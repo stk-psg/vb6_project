@@ -1,0 +1,8 @@
+Line 64: Class MSHierarchicalFlexGridLib.MSHFlexGrid of control MSHventa was not a loaded control class.
+Line 70: The property name _ExtentX in MSHventa is invalid.
+Line 71: The property name _ExtentY in MSHventa is invalid.
+Line 72: The property name _Version in MSHventa is invalid.
+Line 73: The property name Rows in MSHventa is invalid.
+Line 74: The property name Cols in MSHventa is invalid.
+Line 75: The property name _NumberOfBands in MSHventa is invalid.
+Line 76: The property name _Band(0).Cols in MSHventa is invalid.

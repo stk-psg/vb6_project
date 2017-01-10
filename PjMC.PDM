@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Setup 2 Enero 200 MC Facturación
+
+
+[Package|Setup 2 Enero 200 MC Facturación|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\28nbest\ER\MCTOTAL\setup 2 ener2000
+
+[Package|Setup 2 Enero 200 MC Facturación|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup 2 Enero 200 MC Facturación|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup 2 Enero 200 MC Facturación|Files Found]
+
+[Package|Setup 2 Enero 200 MC Facturación|Files Released]
+
+[Package|Setup 2 Enero 200 MC Facturación|Missing Dependency Information]
+
+[Package|Setup 2 Enero 200 MC Facturación|Out-of-Date Dependency Information]
+
+[Package|Setup 2 Enero 200 MC Facturación|Files Added]
+
+[Package|Setup 2 Enero 200 MC Facturación|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Setup 2 Enero 200 MC Facturación|Files In Project]
+C:\28nbest\ER\MCTOTAL\version4\PjMC.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSHFLXGD.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup 2 Enero 200 MC Facturación|Configure Registry Files]
+Applicable=No
+
+[Package|Setup 2 Enero 200 MC Facturación|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup 2 Enero 200 MC Facturación|Install Locations]
+C:\28nbest\ER\MCTOTAL\version4\PjMC.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup 2 Enero 200 MC Facturación|Configure Shared Files]
+Applicable=Yes
+C:\28nbest\ER\MCTOTAL\version4\PjMC.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Setup 2 Enero 200 MC Facturación|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Madereria Calderón Facturación
+
+[Package|Setup 2 Enero 200 MC Facturación|IconGroups]
+Group0=Madereria Calderón Facturación
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup 2 Enero 200 MC Facturación|Madereria Calderón Facturación]
+Icon1=PjMC.exe
+Title1=Madereria Calderón Facturación
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup 2 Enero 200 MC Facturación|Package]
+PackageFolder=C:\28nbest\ER\MCTOTAL\setup 2 ener2000
+ProjectFolder=C:\28nbest\ER\MCTOTAL
+ServerSideCab=
+File1=C:\28nbest\ER\MCTOTAL\setup 2 ener2000\setup.exe
+File2=C:\28nbest\ER\MCTOTAL\setup 2 ener2000\Setup.Lst
+File3=C:\28nbest\ER\MCTOTAL\setup 2 ener2000\PjMC1.CAB
+File4=C:\28nbest\ER\MCTOTAL\setup 2 ener2000\PjMC2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
